@@ -1,0 +1,126 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #FFAFBD, #ffc3a0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Container Styling */
+  .container {
+    background: linear-gradient(135deg, #6dd5ed, #2193b0);
+    width: 400px;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    color: white;
+  }
+  
+  /* Header */
+  .header .text {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .header .underline {
+    width: 60px;
+    height: 4px;
+    background-color: #ffe259;
+    margin: 0 auto 30px;
+  }
+  
+  /* Inputs Styling */
+  .inputs {
+    margin-bottom: 30px;
+  }
+  
+  .input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .input img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  .input input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+    font-size: 16px;
+    color: #333;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  .input input:focus {
+    border-color: #ffe259;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  
+  /* Forgot Password */
+  .forgot-password {
+    text-align: right;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  
+  .forgot-password span {
+    color: #ffe259;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .forgot-password span:hover {
+    text-decoration: none;
+    color: #ffd700;
+  }
+  
+  /* Submit Buttons */
+  .submit-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .submit {
+    width: 48%;
+    background: linear-gradient(135deg, #fc4a1a, #f7b733);
+    color: white;
+    text-align: center;
+    padding: 14px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .submit:hover {
+    background: linear-gradient(135deg, #ff512f, #dd2476);
+    transform: scale(1.05);
+  }
+  
+  /* Additional hover effects */
+  .submit:active {
+    transform: scale(0.98);
+    background: linear-gradient(135deg, #f85032, #e73827);
+  }
+  .gray{
+    background : #EAEAEA;
+    color : #676767;
+    
+  }
+  
